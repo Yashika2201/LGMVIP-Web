@@ -1,0 +1,111 @@
+*{
+    margin: 10px;
+    font-size: 16px;
+    background-color: pink;
+    /* color: white; */
+    font-weight: 550;
+	font-family: "Fira sans", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30rem;
+    width: 90vw;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.form{
+   margin: 5px;
+   padding: 5px;
+   text-align: left;
+}
+.input{
+    margin: 5px;
+    width: 540px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: 2px solid purple;
+    color: purple
+}
+.input:focus{
+    outline: none;
+}
+.buttons{
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    /* width:100vw; */
+    justify-content: center;
+}
+span{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+table{
+    width: 35rem;
+    margin: auto;
+    /* border: 2px solid black; */
+    /* color: aqua; */
+}
+/* td{
+    border: 2px solid black;
+} */
+tr{
+    border: 2px solid black;
+}
+/* .desc{
+    width: 500px;
+} */
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(82, 1, 82);
+}
+button, .reset{
+    padding: 10px 30px;
+    background-color: purple;
+    font-size: 17px;
+    color: rgb(252, 252, 250);
+    border: none;
+    border-radius: 25px;
+}
+button:hover, .reset{
+    cursor: pointer;
+}
+
+img{
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 170px;
+    text-align: center;
+    /* margin: auto; */
+    /* margin: auto;  */
+    object-fit: contain;
+    margin-left: 9px;
+    margin-right: -87px;
+}
+table, th, td{
+    border: 2px solid purple;
+}
+table{
+    border-collapse: collapse;
+    /* width: 50%; */
+    /* box-shadow: 12px 12px 5px purple */
+}
+th{
+    font-size: 25px;
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    /* border: 2px solid white; */
+}
+td{
+    padding: 5px 15px;
+    width: 550px;
+}
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Student Enrollment Form</h1>
+    <div class="container">
+    <form action="" class = "myForm">
+        <input type="text" class = "input" id = "first" name="firstName" placeholder="First Name:"><br>
+        <input type="text" class = "input" name="lastName" placeholder="Last Name:"><br>
+        <input type="email" class = "input" name="email" placeholder="Enter Your email"> <br>
+        <input type="number" name="age" id=""  class = "input" placeholder="Enter your age"><br>
+        <span>Gender</span> : <input type="radio" value="Male" class="gender">Male
+        <input type="radio" value="Female" class="gender" >Female
+        <input type="radio" value="Other" class="gender" >Other <br>
+        <input type="number" name="phone" class = "input" placeholder="Contact Number"><br>
+        <span>Image</span>: <input type="file" name="profileImg" id=""><br>
+        <span>Skills</span>: <input type="checkbox" value="HTML" class="skills">HTML
+        <input type="checkbox" value="CSS" class="skills">CSS
+        <input type="checkbox" value="JavaScript" class="skills">JavaScript
+        <input type="checkbox" value="Node.Js" class="skills">Node.Js
+        <input type="checkbox" value="PHP" class="skills">PHP
+        <input type="checkbox" value="MySQL" class="skills">MySQL <br>
+        <div class="buttons">
+        <button type="submit"  id="submitbtn">Submit</button>
+        <input type = "button" value = "Reset" onClick = "resetForm()" class="reset"/>  
+
+    </div>
+    </form>
+    </div>
+    <hr>
+    <h1 class="heading">Enrolled Students</h1>
+    <table class="myTable">
+        <tr>
+            <th>Image</td>
+            <th class="desc">Description</td>
+        </tr>
+       <!--  <tr>
+            <td><img src="/I/registration_form/img/photo-1438761681033-6461ffad8d80.avif" alt="Image not available" height="150px" width="150px"></td>
+            <td class="info">
+                <p>Name: Yashika Dhanwani</p> 
+                <p>email: abcd@gmail.com</p>
+                <p>Age: 21</p> 
+                <p>Gender: Female</p> 
+                <p>Skills: HTML CSS JavaScript Node.Js</p> 
+            </td>
+        </tr>-->
+        </table> 
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

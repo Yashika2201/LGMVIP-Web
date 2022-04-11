@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    height: 97.8vh;
+    display: flex;
+    flex-direction: column;
+    /* width: 100vw; */
+    /* margin: auto; */
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    
+}
+h1{
+    text-align: center;
+    font-size: 65px;
+    margin: 20px 20px 20px 0px;
+    /* background-color: rgb(99, 165, 165); */
+    color: white;
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: magenta;
+}
+.day_date{
+    background-color: rgb(44, 43, 43);
+    color: beige;
+    /* border:5px solid red; */
+    border-radius: 35px;
+    height: 120px;
+    margin-bottom: 20px;
+    width: 675px;
+}
+input[type = "text"]{
+    padding: 10px 10px 10px 23px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 450px;
+    font-size: 20px;
+    /* color: white; */
+}
+input[type = "text"]::placeholder{
+    font-family: 'Dancing Script', cursive;
+}
+.readonly{
+    background-color: #111827;
+    color: white;
+}
+
+
+input[type = "text"]:focus{
+outline: none;
+}
+input[type = "submit"]{
+    background:none;
+    color: rgb(253, 253, 0);
+    /* font-size:75px; */
+    /* width: 50px; */
+    font-weight: 800;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 5px 5px 15px;
+    margin-left: 15px;
+    appearance: none;
+	outline: none;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+input[type = "submit"]:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px 15px 5px 15px;
+    /* color: var(--pink);
+	font-size: 1.25rem;
+	font-weight: 700; */
+	
+}
+section{
+    width: 600px;
+    margin-left: -74px;
+}
+.day{
+    text-align: center;
+    margin: 12px;
+    margin-top: 25px;
+    font-stretch:ultra-expanded ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.date{
+    margin: 5px 5px 30px 5px;
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    /* text-decoration: dashed solid blue; */
+    
+}
+.task{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    margin: 10px;
+    border-radius: 15px;
+    margin-left: -1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    margin-left: 5px;
+    margin-right:15px;
+    font-size: 12px;
+}
+
+.edit{
+    font-family: 'Dancing Script', cursive;
+    background: none;
+    color: rgb(174, 0, 255);
+    font-size: 27px;
+    font-weight: 700;
+    border: none;
+}
+.actions .delete{
+    background: none;
+    color:  red;
+    font-size: 27px;
+    font-weight: 700;
+    border: none;
+    margin-left: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.edit:hover{
+    cursor: pointer;
+    color: rgb(21, 255, 0);
+    font-family: 'Dancing Script', cursive;
+}
+.delete:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 115);
+    font-family: 'Dancing Script', cursive;
+}
